@@ -21,7 +21,7 @@ spec:
         githubOrg:
           title: GitHub Organization
           type: string
-          default: Summit23DevLab
+          default: rhdh-2024
         description:
           title: Description
           type: string
@@ -36,7 +36,7 @@ spec:
           title: Cluster Id
           type: string
           description: Id of the cluster
-          default: .apps.cluster-xxxxx.xxxxx.sandbox123.opentlc.com
+          default: .apps.rosa-qxs8d.dusy.p1.openshiftapps.com
         namespace: 
           title: Namespace
           type: string
