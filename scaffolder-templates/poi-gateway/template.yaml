@@ -45,10 +45,7 @@ spec:
           title: Owner
           type: string
           description: Owner of the component
-          ui:field: EntityPicker
-          ui:options:
-            catalogFilter:
-              kind: [User]
+          default: "user:<USERNAME>"
     - title: Provide Build Information
       required:
         - image_host

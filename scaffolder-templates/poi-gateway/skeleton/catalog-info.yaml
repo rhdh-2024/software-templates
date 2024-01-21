@@ -56,7 +56,7 @@ metadata:
   name: gateway-api-${{values.namespace}}
   description: API surface exposed to interact with Backends (summit POIs + parks data) via the Gateway
   links:
-    - url: http://${{values.component_id}}-${{values.namespace}}${{values.cluster_id}}/q/swagger-ui
+    - url: https://${{values.component_id}}-${{values.namespace}}${{values.cluster_id}}/q/swagger-ui
       title: Swagger UI
       icon: web
     - url: https://github.com/${{values.githubOrg}}/${{values.repoName}}/tree/main/src/main/resources/META-INF/openapi.yaml
